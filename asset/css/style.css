@@ -1,0 +1,299 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	 font-family: 'Montserrat', sans-serif;
+     /* font-family: 'Open Sans', sans-serif; */
+}
+
+.container{
+	width:1115px;
+	margin:0 auto;
+}
+
+section.bgimage{
+	width:100%;
+	 /* height:100vh;   */
+	background-image:linear-gradient(360deg,rgba(200,10,40,.3)10%,rgba(20,60,4,0.3)100%,rgba(30,4,60,.4)90%),url(../image/bgimage.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	overflow:hidden;
+}
+.navbar ul li {
+	  display:inline-block;  
+	 padding-left:10px;
+	 margin-left:20px;
+	
+	
+	 
+}
+.navbar .nav li a{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:16px;
+	position:relative;	
+}
+.navbar li a{
+	padding:15px 0px;
+}
+.navbar .nav li a::after{
+	content:"";
+	height:4px;
+	background-color:#fff;
+	width:0;
+	position:absolute;
+	right:0;
+	bottom:0;
+	transition:all 0.5s ease-in-out;
+}
+.navbar .nav li a:hover::after{
+	width:100%;
+	
+}
+
+
+.col2,.col3,.col4,.col5,
+.col6,.col7,.col8,.col9,
+.col10,.col11,.col12{
+	 float:left; 
+
+}
+
+
+
+.row,.row::after,.row::before{
+	display:table;
+	clear:both;
+	width:100%;
+}
+.info h2{
+	color:#fff;
+	font-size:52px;
+	font-weight:bold;
+	text-transform:uppercase;
+
+}
+.info p{
+	color:#fff;
+	font-size:36px;
+	margin-bottom:50px;
+	font-weight:lighter;
+	
+	
+}
+.info a{
+	color:#fff;
+	text-transform:uppercase;
+	background-color:#282828;
+	font-size:22px;
+	padding:10px 50px 10px 35px;
+	border-radius:20px;
+	font-weight:bold;
+}
+
+.info  a i{
+	color:#fff;
+	margin-right:10px;
+	font-size:20px;
+}
+
+
+.iphone{
+	position:relative;
+	padding-top:-30px;
+}
+
+.iphone img{
+	position:absolute;
+	right:0;
+}
+
+
+.info1 h2{
+	color:#cacaca;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:52px;
+}
+
+.info1 p{
+	color:#cacaca;
+	font-size:22px;
+}
+.scale h4{
+	color:#1a1a1a;
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:bold;
+}
+.scale p{
+	color:#cacaca;
+	
+	font-size:18px;
+}
+
+.inst h4{
+	color:#1a1a1a;
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:bold;
+}
+.inst p{
+	color:#cacaca;
+	
+	font-size:18px;
+}
+.some h4{
+	color:#1a1a1a;
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:bold;
+}
+.some p{
+	color:#cacaca;
+	
+	font-size:18px;
+}
+/*---------------------============jokerimage section=========-------------------------*/
+
+section.imgjoker{
+	 background:#d7dedc url("../image/joker.png"); 
+	background-repeat:no-repeate;
+	background-size:cover;
+	background-position:right;
+	 padding-bottom:170px; 
+	 width:100%; 
+
+	
+	
+}
+.fruit h2{
+	color:#fff;
+	text-transform:uppercase;
+	font-size:52px;
+	padding-top:190px;
+	padding-bottom:55px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+span{
+	color:#e5a09f;
+}
+
+.fruit p{
+	color:#bfc5c4;
+	font-size:25px;
+	padding-bottom:80px;
+}
+
+
+.btn{
+	padding:15px 20px;
+	border-radius:20px;
+	border:0px;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+	background-color:#e5a09f;
+	transition:all .5s;
+}
+
+.btn:hover{
+	background-color:#fff;
+	color:#e5a09f;
+	
+}
+/*---------------footer--------------------------*/
+.footer-list ul li .box{
+	height:40px;
+	width:60px;
+	background-color:#e74c3c;
+	margin-right:15px;
+	
+	
+}
+section.footer{
+	background-color:#2e2e38;
+	padding-bottom:100px;
+	/* height:100vh; */
+}
+.post{
+	
+	color:#fff;
+	text-transform:capitalize;
+	font-size:30px;
+	font-weight:bold;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.footer-list ul li{
+
+	display:table;
+	clear:both;
+	width:100%;
+	margin-bottom:30px;
+}
+
+.footer-list ul li div{
+	float:left;
+}
+
+.fruitinfo p{
+	font-size:15px;
+	font-weight:400;
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.fruitinfo .ago{
+	font-size:10px;
+}
+p.line-height{
+	line-height:30px;
+	 font-family: 'Open Sans', sans-serif; 
+	font-style:italic;
+}
+
+/*--------------------sociallink footer section----------- */
+
+.sociallink{
+	background-color:#d7dedc;
+
+}
+
+.navbar1 ul li{
+	display:inline-block;
+	
+}
+
+.nav1 li a{
+padding:0px 30px;
+font-size:25px;	
+
+
+}
+.nav1 li{
+font-size:25px;		
+}
+
+
+.nav1 li a i.fb{
+	color:#1141ae;
+	font-size:25px;
+
+	
+}
+.nav1 li a i.chrom{
+	color:#de4183;
+	font-size:25px;
+}
+.nav1 li a i.tweet{
+	color:#8ce0e4;
+	font-size:25px;
+}
+.nav1 li a.index{
+	color:#000000;
+}
+
